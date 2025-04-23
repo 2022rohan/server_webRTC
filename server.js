@@ -12,7 +12,7 @@ app.use(cors());
 
 const io = require('socket.io')(server, {
     cors: {
-      origin: "https://web-rtc-vdo-experiment-git-main-rohanlathers-projects.vercel.app/", // Your deployed frontend
+      origin: "https://web-rtc-vdo-experiment-gk920p7xk-rohanlathers-projects.vercel.app/", // Your deployed frontend
       methods: ["GET", "POST"],
       credentials: true
     }
